@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    chronic (0.10.2)
     date (3.3.4)
     mail (2.8.1)
       mini_mime (>= 0.1.1)
@@ -28,6 +29,8 @@ GEM
       power_assert
     timeout (0.4.1)
     websocket (1.2.10)
+    whenever (1.0.0)
+      chronic (>= 0.6.3)
 
 PLATFORMS
   x86_64-linux
@@ -36,6 +39,7 @@ DEPENDENCIES
   mail
   selenium-webdriver
   test-unit
+  whenever
 
 BUNDLED WITH
    2.4.20
